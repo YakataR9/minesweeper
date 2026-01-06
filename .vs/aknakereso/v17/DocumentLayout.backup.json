@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\2025-26\\csharp\\minesweeper\\",
+  "WorkspaceRootPath": "C:\\Users\\c1arazal\\Documents\\GitHub\\minesweeper\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{771020BA-A408-49BE-AC05-F4ED534B8B6C}|aknakereso\\aknakereso.csproj|j:\\2025-26\\csharp\\minesweeper\\aknakereso\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{771020BA-A408-49BE-AC05-F4ED534B8B6C}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -16,6 +17,21 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{771020BA-A408-49BE-AC05-F4ED534B8B6C}|aknakereso\\aknakereso.csproj|j:\\2025-26\\csharp\\minesweeper\\aknakereso\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{771020BA-A408-49BE-AC05-F4ED534B8B6C}|aknakereso\\aknakereso.csproj|c:\\users\\c1arazal\\documents\\github\\minesweeper\\aknakereso\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{771020BA-A408-49BE-AC05-F4ED534B8B6C}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771020BA-A408-49BE-AC05-F4ED534B8B6C}|aknakereso\\aknakereso.csproj|c:\\users\\c1arazal\\documents\\github\\minesweeper\\aknakereso\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771020BA-A408-49BE-AC05-F4ED534B8B6C}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771020BA-A408-49BE-AC05-F4ED534B8B6C}|aknakereso\\aknakereso.csproj|c:\\users\\c1arazal\\documents\\github\\minesweeper\\aknakereso\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771020BA-A408-49BE-AC05-F4ED534B8B6C}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771020BA-A408-49BE-AC05-F4ED534B8B6C}|aknakereso\\aknakereso.csproj|c:\\users\\c1arazal\\documents\\github\\minesweeper\\aknakereso\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{771020BA-A408-49BE-AC05-F4ED534B8B6C}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,19 +42,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 1,
+=======
+          "SelectedChildIndex": 0,
+>>>>>>> Stashed changes
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "J:\\2025-26\\csharp\\minesweeper\\aknakereso\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\c1arazal\\Documents\\GitHub\\minesweeper\\aknakereso\\MainWindow.xaml",
               "RelativeDocumentMoniker": "aknakereso\\MainWindow.xaml",
+<<<<<<< Updated upstream
               "ToolTip": "J:\\2025-26\\csharp\\minesweeper\\aknakereso\\MainWindow.xaml*",
+=======
+              "ToolTip": "C:\\Users\\c1arazal\\Documents\\GitHub\\minesweeper\\aknakereso\\MainWindow.xaml*",
+>>>>>>> Stashed changes
               "RelativeToolTip": "aknakereso\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-05T20:33:15.579Z",
@@ -48,11 +68,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "J:\\2025-26\\csharp\\minesweeper\\aknakereso\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1arazal\\Documents\\GitHub\\minesweeper\\aknakereso\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "aknakereso\\MainWindow.xaml.cs",
-              "ToolTip": "J:\\2025-26\\csharp\\minesweeper\\aknakereso\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\c1arazal\\Documents\\GitHub\\minesweeper\\aknakereso\\MainWindow.xaml.cs",
               "RelativeToolTip": "aknakereso\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAwwKYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAjwF8AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T19:01:01.171Z",
               "EditorCaption": ""
@@ -61,23 +81,28 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Result.cs",
-              "DocumentMoniker": "J:\\2025-26\\csharp\\minesweeper\\aknakereso\\Result.cs",
+              "DocumentMoniker": "C:\\Users\\c1arazal\\Documents\\GitHub\\minesweeper\\aknakereso\\Result.cs",
               "RelativeDocumentMoniker": "aknakereso\\Result.cs",
-              "ToolTip": "J:\\2025-26\\csharp\\minesweeper\\aknakereso\\Result.cs",
+              "ToolTip": "C:\\Users\\c1arazal\\Documents\\GitHub\\minesweeper\\aknakereso\\Result.cs",
               "RelativeToolTip": "aknakereso\\Result.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T19:00:44.939Z"
+              "WhenOpened": "2026-01-05T19:00:44.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "GameDbContext.cs",
-              "DocumentMoniker": "J:\\2025-26\\csharp\\minesweeper\\aknakereso\\GameDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\c1arazal\\Documents\\GitHub\\minesweeper\\aknakereso\\GameDbContext.cs",
               "RelativeDocumentMoniker": "aknakereso\\GameDbContext.cs",
-              "ToolTip": "J:\\2025-26\\csharp\\minesweeper\\aknakereso\\GameDbContext.cs",
+              "ToolTip": "C:\\Users\\c1arazal\\Documents\\GitHub\\minesweeper\\aknakereso\\GameDbContext.cs",
               "RelativeToolTip": "aknakereso\\GameDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T18:54:23.785Z",
               "EditorCaption": ""

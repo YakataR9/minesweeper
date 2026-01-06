@@ -65,6 +65,7 @@ namespace Aknakereso
 
             StatsPanel.Visibility = Visibility.Collapsed;
             DifficultyPanel.Visibility = Visibility.Visible;
+            GombDoboz.Visibility = Visibility.Visible;
 
             timer?.Stop();
             TimerText.Text = "Idő: 0";
@@ -92,6 +93,7 @@ namespace Aknakereso
             CalculateAdjacentMines();
             CreateButtons();
             UpdateMineCounter();
+            GombDoboz.Visibility = Visibility.Collapsed;
 
             timer?.Stop();
             secondsElapsed = 0;

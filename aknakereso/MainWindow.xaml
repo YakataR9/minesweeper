@@ -4,36 +4,78 @@
         Title="Aknakereső"
         Width="900"
         Height="800"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        Background="#F2F4F8">
 
+    <!-- ===== STÍLUSOK ===== -->
+    <Window.Resources>
+        <!-- Színes gomb stílus a DifficultyPanel-re -->
+        <Style x:Key="ColorButtonStyle" TargetType="Button">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Width" Value="400"/>
+            <Setter Property="Height" Value="80"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="12">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <!-- Hover színt a Tag-ből vesszük -->
+                                <Setter TargetName="border" Property="Background" Value="{Binding Tag, RelativeSource={RelativeSource TemplatedParent}}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <!-- ===== ELRENDEZÉS ===== -->
     <Grid>
 
-        <!-- Játék Grid + stat panel -->
-        <DockPanel Margin="10">
+        <!-- ===== JÁTÉKMEZŐ + stat panel ===== -->
+        <DockPanel Margin="15">
 
-            <!-- Felső sáv: stat panel + gombok -->
+            <!-- Játék közbeni felső stat panel (nem színes) -->
             <StackPanel x:Name="StatsPanel"
                         DockPanel.Dock="Top"
                         Orientation="Horizontal"
                         Margin="0,0,0,10"
-                        Visibility="Collapsed">
+                        Visibility="Collapsed"
+                        HorizontalAlignment="Center">
 
                 <TextBlock VerticalAlignment="Center" FontWeight="Bold" Margin="0,0,5,0"/>
                 <TextBlock x:Name="TimerText" Text="0" VerticalAlignment="Center" FontWeight="Bold" Margin="0,0,20,0"/>
-
                 <TextBlock VerticalAlignment="Center" FontWeight="Bold" Margin="0,0,5,0"/>
                 <TextBlock x:Name="MineCounter" Text="0" VerticalAlignment="Center" FontWeight="Bold" Margin="0,0,20,0"/>
-
-                <Button Content="🔄 Új játék" Click="NewGameButton_Click" Margin="0,0,10,0"/>
-                <Button Content="🏆 Rekordok" Click="RecordsButton_Click"/>
+                <Button Content="🔄 Új játék" Click="NewGameButton_Click" Margin="0,0,10,0" Background="Silver" x:Name="NewGame"/>
+                <Button Content="🏆 Rekordok" Click="RecordsButton_Click" Background="Gold" x:Name="Record"/>
 
             </StackPanel>
 
+             
             <!-- Játék Grid -->
             <Grid x:Name="GameGrid" Background="LightGray"/>
-
         </DockPanel>
+        <Border HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Background="#AAFFFFFF"
+        Width="500"
+        Padding="20"
+        CornerRadius="15"
+        x:Name="GombDoboz">
+            <StackPanel x:Name="DifficultyPanel">
 
+<<<<<<< Updated upstream
         <!-- DifficultyPanel overlay -->
         <StackPanel x:Name="DifficultyPanel"
                     HorizontalAlignment="Center"
@@ -46,6 +88,38 @@
             <Button Content="Nehéz (24x24, 99 akna)" Click="HardButton_Click" Margin="20,0,20,10" Width="400" Height="100" FontSize="24"/>
             <Button Content="🏆 Rekordok" Click="RecordsButton_Click" Margin="20,0,20,10" Width="400" Height="100" FontSize="24"/>
         </StackPanel>
+=======
+                <TextBlock Text="Aknakereső"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="10,10,10,25"
+                   FontSize="32"/>
+
+                <!-- Könnyű -->
+                <Button Content="Könnyű (8x8, 10 akna)"
+                Click="EasyButton_Click"
+                Background="#10B981"
+                Tag="#059669"
+                Style="{StaticResource ColorButtonStyle}"
+                Margin="0,0,0,15"/>
+
+                <!-- Közepes -->
+                <Button Content="Közepes (16x16, 40 akna)"
+                Click="MediumButton_Click"
+                Background="#F59E0B"
+                Tag="#D97706"
+                Style="{StaticResource ColorButtonStyle}"
+                Margin="0,0,0,15"/>
+
+                <!-- Nehéz -->
+                <Button Content="Nehéz (24x24, 99 akna)"
+                Click="HardButton_Click"
+                Background="#EF4444"
+                Tag="#DC2626"
+                Style="{StaticResource ColorButtonStyle}"/>
+            </StackPanel>
+        </Border>
+>>>>>>> Stashed changes
 
     </Grid>
 </Window>

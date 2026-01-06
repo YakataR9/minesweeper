@@ -1237,23 +1237,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\c1ondger\\.nuget\\packages\\": {},
+    "C:\\Users\\c1arazal\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\2025-26\\csharp\\minesweeper\\aknakereso\\aknakereso.csproj",
+      "projectUniqueName": "C:\\Users\\c1arazal\\Documents\\GitHub\\minesweeper\\aknakereso\\aknakereso.csproj",
       "projectName": "aknakereso",
-      "projectPath": "J:\\2025-26\\csharp\\minesweeper\\aknakereso\\aknakereso.csproj",
-      "packagesPath": "C:\\Users\\c1ondger\\.nuget\\packages\\",
-      "outputPath": "J:\\2025-26\\csharp\\minesweeper\\aknakereso\\obj\\",
+      "projectPath": "C:\\Users\\c1arazal\\Documents\\GitHub\\minesweeper\\aknakereso\\aknakereso.csproj",
+      "packagesPath": "C:\\Users\\c1arazal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\c1arazal\\Documents\\GitHub\\minesweeper\\aknakereso\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\c1ondger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\c1arazal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
