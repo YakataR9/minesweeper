@@ -76,6 +76,7 @@
             <StackPanel x:Name="DifficultyPanel">
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <!-- DifficultyPanel overlay -->
         <StackPanel x:Name="DifficultyPanel"
                     HorizontalAlignment="Center"
@@ -89,6 +90,8 @@
             <Button Content="🏆 Rekordok" Click="RecordsButton_Click" Margin="20,0,20,10" Width="400" Height="100" FontSize="24"/>
         </StackPanel>
 =======
+=======
+>>>>>>> Stashed changes
                 <TextBlock Text="Aknakereső"
                    FontWeight="Bold"
                    HorizontalAlignment="Center"
@@ -119,6 +122,9 @@
                 Style="{StaticResource ColorButtonStyle}"/>
             </StackPanel>
         </Border>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     </Grid>
